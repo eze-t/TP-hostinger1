@@ -392,13 +392,19 @@ body {
 }
 
 .migracion-card {
-    flex: 1; 
+    flex: 1 1 280px; 
+    min-width: 260px;
     background-color: rgb(47,28,106);
     border-radius: 8px;
     border: 1px solid rgb(47,28,106);
     padding: 30px;
     color: #fff;
     text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.migracion-card:hover {
+  transform: translateY(-5px);
 }
 
 .migracion-card-header {
